@@ -122,3 +122,32 @@ a {
     box-sizing: border-box;
     margin-bottom: 8px;
 }
+
+.quotecontainer {
+    background: #E5E7EB;
+    height: 400px;
+}
+
+.quote {
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote span {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    font-style: normal;
+    font-family: Roboto sans-serif;    
+}
+
